@@ -20,5 +20,4 @@ const precosLivros = [
         preco: 10
     }
 ]
-
 module.exports = precosLivros;
