@@ -3,6 +3,11 @@ const listaLivros = require('./array_ordenado');
 function busca(array, de, ate, valor) {
     const meio = Math.floor((de + ate) /2 );
     const atual = array[meio];
+    
+    if(de > ate){
+        return -1;
+    }
+
     if(valor == atual.preco){
         return meio;
     }
